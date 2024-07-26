@@ -161,9 +161,9 @@ then
     sudo sed -i -e s/\\[options\\]// /home/pi/weewx-data/weewx.conf
 
     # US frequencies and imperial units
-    echo "editing US settings..."
-    sed -i -e s/frequency\ =\ EU/frequency\ =\ US/             /home/pi/weewx-data/weewx.conf
-    sed -i -e s/rain_bucket_type\ =\ 1/rain_bucket_type\ =\ 0/ /home/pi/weewx-data/weewx.conf
+    # echo "editing US settings..."
+    # sed -i -e s/frequency\ =\ EU/frequency\ =\ US/             /home/pi/weewx-data/weewx.conf
+    # sed -i -e s/rain_bucket_type\ =\ 1/rain_bucket_type\ =\ 0/ /home/pi/weewx-data/weewx.conf
 
     # for very verbose logging of readings
     echo "editing debug..."
